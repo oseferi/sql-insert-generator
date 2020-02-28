@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (89700, 'Angaur State', 4538, '010', 168, 'PW', 6.90601000, 134.12997000 '2019-10-05 15:44:37', '2019-10-05 15:44:37', 1, 'Q275862')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (89700, 'Angaur State', 4538, '010', 168, 'PW', 6.90601000, 134.12997000 '2019-10-05 15:44:37', '2019-10-05 15:44:37', 1, 'Q275862')
 ,(89701, 'Imeong Hamlet', 4541, '227', 168, 'PW', 7.53134000, 134.52713000 '2019-10-05 15:44:37', '2019-10-05 15:44:37', 1, 'Q2640394')
 ,(89702, 'Kayangel', 4539, '100', 168, 'PW', 8.08228000, 134.71725000 '2019-10-05 15:44:37', '2019-10-05 15:44:37', 1, 'Q2640394')
 ,(89703, 'Kloulklubed', 4526, '350', 168, 'PW', 7.04192000, 134.25561000 '2019-10-05 15:44:37', '2019-10-05 15:44:37', 1, 'Q2560228')

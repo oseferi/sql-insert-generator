@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (10053, 'Abadia de GoiÃ¡s', 2000, 'GO', 31, 'BR', -16.77762000, -49.46841000 '2019-10-05 15:04:55', '2019-10-05 15:04:55', 1, 'Q304652')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (10053, 'Abadia de GoiÃ¡s', 2000, 'GO', 31, 'BR', -16.77762000, -49.46841000 '2019-10-05 15:04:55', '2019-10-05 15:04:55', 1, 'Q304652')
 ,(10054, 'Abadia dos Dourados', 1998, 'MG', 31, 'BR', -18.36347000, -47.46997000 '2019-10-05 15:04:55', '2019-10-05 15:04:55', 1, 'Q582223')
 ,(10055, 'AbadiÃ¢nia', 2000, 'GO', 31, 'BR', -16.22632000, -48.62681000 '2019-10-05 15:04:55', '2019-10-05 15:04:55', 1, 'Q304716')
 ,(10056, 'Abaetetuba', 2009, 'PA', 31, 'BR', -1.71806000, -48.88250000 '2019-10-05 15:04:55', '2019-10-05 15:04:55', 1, 'Q1615298')

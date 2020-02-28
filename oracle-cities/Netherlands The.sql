@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (77297, ''s Gravenmoer', 2623, 'NB', 156, 'NL', 51.65594000, 4.94076000 '2019-10-05 15:41:41', '2019-10-05 15:41:41', 1, 'Q131883')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (77297, ''s Gravenmoer', 2623, 'NB', 156, 'NL', 51.65594000, 4.94076000 '2019-10-05 15:41:41', '2019-10-05 15:41:41', 1, 'Q131883')
 ,(77298, ''s-Gravenland', 2614, 'ZH', 156, 'NL', 51.92336000, 4.55315000 '2019-10-05 15:41:41', '2019-10-05 15:41:41', 1, 'Q2517974')
 ,(77299, ''s-Gravenzande', 2614, 'ZH', 156, 'NL', 52.00167000, 4.16528000 '2019-10-05 15:41:41', '2019-10-05 15:41:41', 1, 'Q425786')
 ,(77300, ''s-Heerenberg', 2611, 'GE', 156, 'NL', 51.87670000, 6.25877000 '2019-10-05 15:41:41', '2019-10-05 15:41:41', 1, 'Q425810')

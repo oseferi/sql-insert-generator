@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (64935, 'Angkor Chey', 3981, '7', 37, 'KH', 10.76667000, 104.65000000 '2019-10-05 15:37:43', '2019-10-05 15:37:43', 1, 'Q4763325')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (64935, 'Angkor Chey', 3981, '7', 37, 'KH', 10.76667000, 104.65000000 '2019-10-05 15:37:43', '2019-10-05 15:37:43', 1, 'Q4763325')
 ,(64936, 'Bakan', 3977, '15', 37, 'KH', 12.78000000, 103.79000000 '2019-10-05 15:37:43', '2019-10-05 15:37:43', 1, 'Q4849003')
 ,(64937, 'Banlung', 3990, '16', 37, 'KH', 13.73939000, 106.98727000 '2019-10-05 15:37:43', '2019-10-05 15:37:43', 1, 'Q1350362')
 ,(64938, 'Banteay Meas', 3981, '7', 37, 'KH', 10.61667000, 104.53333000 '2019-10-05 15:37:43', '2019-10-05 15:37:43', 1, 'Q4857204')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9816, 'Bandar Seri Begawan', 1216, 'BM', 33, 'BN', 4.89035000, 114.94006000 '2019-10-05 15:04:51', '2019-10-05 15:04:51', 1, 'Q9279')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9816, 'Bandar Seri Begawan', 1216, 'BM', 33, 'BN', 4.89035000, 114.94006000 '2019-10-05 15:04:51', '2019-10-05 15:04:51', 1, 'Q9279')
 ,(9817, 'Bangar', 1218, 'TE', 33, 'BN', 4.70861000, 115.07167000 '2019-10-05 15:04:51', '2019-10-05 15:04:51', 1, 'Q1125479')
 ,(9818, 'Berakas A', 1216, 'BM', 33, 'BN', 4.97032000, 114.92989000 '2019-10-05 15:04:51', '2019-10-05 15:04:51', 1, 'Q1125479')
 ,(9819, 'Kapok', 1216, 'BM', 33, 'BN', 5.02447000, 115.04664000 '2019-10-05 15:04:51', '2019-10-05 15:04:51', 1, 'Q1125479')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104702, 'AdÃ©ane', 478, 'ZG', 195, 'SN', 12.63000000, -16.01694000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q2825448')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104702, 'AdÃ©ane', 478, 'ZG', 195, 'SN', 12.63000000, -16.01694000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q2825448')
 ,(104703, 'Bignona', 478, 'ZG', 195, 'SN', 12.81028000, -16.22639000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q286563')
 ,(104704, 'Dakar', 473, 'DK', 195, 'SN', 14.69370000, -17.44406000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q3718')
 ,(104705, 'Dakar Department', 473, 'DK', 195, 'SN', 14.71403000, -17.45534000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q2066372')

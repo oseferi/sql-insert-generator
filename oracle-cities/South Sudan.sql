@@ -1,1 +1,1 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104834, 'Yirol', 2090, 'LK', 206, 'SS', 6.55250000, 30.49806000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q3132425')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104834, 'Yirol', 2090, 'LK', 206, 'SS', 6.55250000, 30.49806000 '2019-10-05 15:48:06', '2019-10-05 15:48:06', 1, 'Q3132425')

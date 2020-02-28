@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (1600, 'Abfaltersbach', 2064, '7', 15, 'AT', 46.75715000, 12.52828000 '2019-10-05 14:58:21', '2019-10-05 14:58:21', 1, 'Q292866')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (1600, 'Abfaltersbach', 2064, '7', 15, 'AT', 46.75715000, 12.52828000 '2019-10-05 14:58:21', '2019-10-05 14:58:21', 1, 'Q292866')
 ,(1601, 'Absam', 2064, '7', 15, 'AT', 47.29572000, 11.50593000 '2019-10-05 14:58:21', '2019-10-05 14:58:21', 1, 'Q292866')
 ,(1602, 'Absdorf', 2065, '3', 15, 'AT', 48.40021000, 15.97874000 '2019-10-05 14:58:21', '2019-10-05 14:58:21', 1, 'Q292866')
 ,(1603, 'Abtenau', 2061, '5', 15, 'AT', 47.56373000, 13.34599000 '2019-10-05 14:58:21', '2019-10-05 14:58:21', 1, 'Q334510')

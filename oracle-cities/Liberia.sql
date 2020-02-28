@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (66546, 'Barclayville', 3045, 'GK', 123, 'LR', 4.67443000, -8.23306000 '2019-10-05 15:37:58', '2019-10-05 15:37:58', 1, 'Q807963')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (66546, 'Barclayville', 3045, 'GK', 123, 'LR', 4.67443000, -8.23306000 '2019-10-05 15:37:58', '2019-10-05 15:37:58', 1, 'Q807963')
 ,(66547, 'Bensonville', 3032, 'MO', 123, 'LR', 6.44716000, -10.61283000 '2019-10-05 15:37:58', '2019-10-05 15:37:58', 1, 'Q818201')
 ,(66548, 'Bopolu', 3044, 'GP', 123, 'LR', 7.06667000, -10.48750000 '2019-10-05 15:37:58', '2019-10-05 15:37:58', 1, 'Q893242')
 ,(66549, 'Buchanan', 3040, 'GB', 123, 'LR', 5.87693000, -10.04964000 '2019-10-05 15:37:58', '2019-10-05 15:37:58', 1, 'Q269222')

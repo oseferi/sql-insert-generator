@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (17339, 'Brazzaville', 2870, 'BZV', 50, 'CG', -4.26613000, 15.28318000 '2019-10-05 15:05:51', '2019-10-05 15:05:51', 1, 'Q3844')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (17339, 'Brazzaville', 2870, 'BZV', 50, 'CG', -4.26613000, 15.28318000 '2019-10-05 15:05:51', '2019-10-05 15:05:51', 1, 'Q3844')
 ,(17340, 'Djambala', 2862, '14', 50, 'CG', -2.54472000, 14.75333000 '2019-10-05 15:05:51', '2019-10-05 15:05:51', 1, 'Q2490824')
 ,(17341, 'Dolisie', 2872, '9', 50, 'CG', -4.19834000, 12.66664000 '2019-10-05 15:05:51', '2019-10-05 15:05:51', 1, 'Q246554')
 ,(17342, 'Ewo', 2869, '15', 50, 'CG', -0.87250000, 14.82056000 '2019-10-05 15:05:51', '2019-10-05 15:05:51', 1, 'Q2362433')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (19132, 'Abong Mbang', 2661, 'ES', 38, 'CM', 3.98333000, 13.18333000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q322917')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (19132, 'Abong Mbang', 2661, 'ES', 38, 'CM', 3.98333000, 13.18333000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q322917')
 ,(19133, 'Akom II', 2659, 'SU', 38, 'CM', 2.78333000, 10.56667000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q322917')
 ,(19134, 'Akono', 2660, 'CE', 38, 'CM', 3.50000000, 11.33333000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q322917')
 ,(19135, 'Akonolinga', 2660, 'CE', 38, 'CM', 3.76667000, 12.25000000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q2829121')

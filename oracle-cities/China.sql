@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (19271, 'Aba Zangzu Qiangzu Zizhizhou', 2277, 'SC', 45, 'CN', 32.41875000, 102.63664000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q1012450')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (19271, 'Aba Zangzu Qiangzu Zizhizhou', 2277, 'SC', 45, 'CN', 32.41875000, 102.63664000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q1012450')
 ,(19272, 'Acheng', 2265, 'HL', 45, 'CN', 45.54545000, 126.97703000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q1012450')
 ,(19273, 'Ailan Mubage', 2263, 'XJ', 45, 'CN', 43.90845000, 81.33299000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q866021')
 ,(19274, 'Aksu', 2263, 'XJ', 45, 'CN', 41.18418000, 80.27921000 '2019-10-05 15:06:03', '2019-10-05 15:06:03', 1, 'Q421648')

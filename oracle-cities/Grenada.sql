@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (52028, 'Gouyave', 3868, '04', 87, 'GD', 12.16462000, -61.72965000 '2019-10-05 15:23:20', '2019-10-05 15:23:20', 1, 'Q375507')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (52028, 'Gouyave', 3868, '04', 87, 'GD', 12.16462000, -61.72965000 '2019-10-05 15:23:20', '2019-10-05 15:23:20', 1, 'Q375507')
 ,(52029, 'Grenville', 3865, '01', 87, 'GD', 12.12278000, -61.62498000 '2019-10-05 15:23:20', '2019-10-05 15:23:20', 1, 'Q3116519')
 ,(52030, 'Hillsborough', 3867, '10', 87, 'GD', 12.48292000, -61.45597000 '2019-10-05 15:23:20', '2019-10-05 15:23:20', 1, 'Q3267362')
 ,(52031, 'Saint Davidâ€™s', 3869, '02', 87, 'GD', 12.04903000, -61.66875000 '2019-10-05 15:23:20', '2019-10-05 15:23:20', 1, 'Q3267362')

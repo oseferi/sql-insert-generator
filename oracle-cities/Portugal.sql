@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (88904, 'A dos Cunhados', 2228, '11', 177, 'PT', 39.15237000, -9.29720000 '2019-10-05 15:44:32', '2019-10-05 15:44:32', 1, 'Q300626')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (88904, 'A dos Cunhados', 2228, '11', 177, 'PT', 39.15237000, -9.29720000 '2019-10-05 15:44:32', '2019-10-05 15:44:32', 1, 'Q300626')
 ,(88905, 'A dos Francos', 2240, '10', 177, 'PT', 39.32272000, -9.04743000 '2019-10-05 15:44:32', '2019-10-05 15:44:32', 1, 'Q300627')
 ,(88906, 'Abrantes', 2238, '14', 177, 'PT', 39.46667000, -8.20000000 '2019-10-05 15:44:32', '2019-10-05 15:44:32', 1, 'Q331191')
 ,(88907, 'Abraveses', 2237, '18', 177, 'PT', 40.68137000, -7.92102000 '2019-10-05 15:44:32', '2019-10-05 15:44:32', 1, 'Q168332')

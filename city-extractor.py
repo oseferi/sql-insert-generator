@@ -20,7 +20,7 @@ seectAllCountriesQuery = "SELECT * FROM countries"
 selectEachCityQuery = "SELECT * FROM cities WHERE country_code = %(country)s"
 
 insertCityQuery = "INSERT INTO `cities` (`id`, `name`, `state_id`, `state_code`, `country_id`, `country_code`, `latitude`, `longitude`, `created_at`, `updated_on`, `flag`, `wikiDataId`) VALUES "
-insertCityQueryOracle = "INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES "
+insertCityQueryOracle = "INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES "
 
 valueCityQuery = "($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude '$created_at', '$updated_on', $flag, '$wikiDataId')\n"
 

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (76409, 'Alor Gajah', 1941, '04', 132, 'MY', 2.38040000, 102.20890000 '2019-10-05 15:40:34', '2019-10-05 15:40:34', 1, 'Q2251607')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (76409, 'Alor Gajah', 1941, '04', 132, 'MY', 2.38040000, 102.20890000 '2019-10-05 15:40:34', '2019-10-05 15:40:34', 1, 'Q2251607')
 ,(76410, 'Alor Setar', 1947, '02', 132, 'MY', 6.12104000, 100.36014000 '2019-10-05 15:40:34', '2019-10-05 15:40:34', 1, 'Q474868')
 ,(76411, 'Ampang', 1944, '10', 132, 'MY', 3.15000000, 101.76667000 '2019-10-05 15:40:34', '2019-10-05 15:40:34', 1, 'Q474868')
 ,(76412, 'Ayer Hangat', 1947, '02', 132, 'MY', 6.42062000, 99.82199000 '2019-10-05 15:40:34', '2019-10-05 15:40:34', 1, 'Q474868')

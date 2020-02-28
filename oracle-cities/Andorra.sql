@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (1, 'Andorra la Vella', 488, '07', 6, 'AD', 42.50779000, 1.52109000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q1863')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (1, 'Andorra la Vella', 488, '07', 6, 'AD', 42.50779000, 1.52109000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q1863')
 ,(2, 'Arinsal', 493, '04', 6, 'AD', 42.57205000, 1.48453000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q24554')
 ,(3, 'Canillo', 489, '02', 6, 'AD', 42.56760000, 1.59756000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q24554')
 ,(4, 'El Tarter', 489, '02', 6, 'AD', 42.57952000, 1.65362000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q24413')

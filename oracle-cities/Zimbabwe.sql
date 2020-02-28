@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (131400, 'Banket', 1953, 'MW', 247, 'ZW', -17.38333000, 30.40000000 '2019-10-05 16:07:25', '2019-10-05 16:07:25', 1, 'Q4856279')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (131400, 'Banket', 1953, 'MW', 247, 'ZW', -17.38333000, 30.40000000 '2019-10-05 16:07:25', '2019-10-05 16:07:25', 1, 'Q4856279')
 ,(131401, 'Beatrice', 1951, 'ME', 247, 'ZW', -18.25283000, 30.84730000 '2019-10-05 16:07:25', '2019-10-05 16:07:25', 1, 'Q31879111')
 ,(131402, 'Beitbridge', 1952, 'MS', 247, 'ZW', -22.21667000, 30.00000000 '2019-10-05 16:07:25', '2019-10-05 16:07:25', 1, 'Q814922')
 ,(131403, 'Beitbridge District', 1952, 'MS', 247, 'ZW', -21.89829000, 30.07409000 '2019-10-05 16:07:25', '2019-10-05 16:07:25', 1, 'Q4881482')

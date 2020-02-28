@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (110965, 'Abbeville', 1455, 'GA', 233, 'US', 31.99212000, -83.30682000 '2019-10-05 16:01:43', '2019-10-05 16:01:43', 1, 'Q306318')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (110965, 'Abbeville', 1455, 'GA', 233, 'US', 31.99212000, -83.30682000 '2019-10-05 16:01:43', '2019-10-05 16:01:43', 1, 'Q306318')
 ,(110966, 'Abbeville', 1457, 'LA', 233, 'US', 29.97465000, -92.13429000 '2019-10-05 16:01:43', '2019-10-05 16:01:43', 1, 'Q306328')
 ,(110967, 'Abbeville', 1443, 'SC', 233, 'US', 34.17817000, -82.37901000 '2019-10-05 16:01:43', '2019-10-05 16:01:43', 1, 'Q1989375')
 ,(110968, 'Abbeville', 1456, 'AL', 233, 'US', 31.57184000, -85.25049000 '2019-10-05 16:01:43', '2019-10-05 16:01:43', 1, 'Q79806')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (39153, 'Colonia', 2582, 'YAP', 143, 'FM', 9.51638000, 138.12167000 '2019-10-05 15:17:39', '2019-10-05 15:17:39', 1, 'Q631152')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (39153, 'Colonia', 2582, 'YAP', 143, 'FM', 9.51638000, 138.12167000 '2019-10-05 15:17:39', '2019-10-05 15:17:39', 1, 'Q631152')
 ,(39154, 'Dalipebinaw Municipality', 2582, 'YAP', 143, 'FM', 9.52229000, 138.08540000 '2019-10-05 15:17:39', '2019-10-05 15:17:39', 1, 'Q631152')
 ,(39155, 'Eot Municipality', 2580, 'TRK', 143, 'FM', 7.38540000, 151.73920000 '2019-10-05 15:17:39', '2019-10-05 15:17:39', 1, 'Q631152')
 ,(39156, 'Ettal Municipality', 2580, 'TRK', 143, 'FM', 5.59200000, 153.56000000 '2019-10-05 15:17:39', '2019-10-05 15:17:39', 1, 'Q631152')

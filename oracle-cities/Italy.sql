@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (58202, 'Paganico Sabino', 1678, '62', 107, 'IT', 42.18963000, 12.99689000 '2019-10-05 15:36:39', '2019-10-05 15:36:39', 1, '')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (58202, 'Paganico Sabino', 1678, '62', 107, 'IT', 42.18963000, 12.99689000 '2019-10-05 15:36:39', '2019-10-05 15:36:39', 1, '')
 ,(58203, 'Pagazzano', 1705, '25', 107, 'IT', 45.53428000, 9.67116000 '2019-10-05 15:36:39', '2019-10-05 15:36:39', 1, '')
 ,(58204, 'Pagliara', 1709, '82', 107, 'IT', 37.98546000, 15.35969000 '2019-10-05 15:36:39', '2019-10-05 15:36:39', 1, '')
 ,(58205, 'Pagliare', 1679, '65', 107, 'IT', 42.64372000, 13.95171000 '2019-10-05 15:36:39', '2019-10-05 15:36:39', 1, 'Q18428397')

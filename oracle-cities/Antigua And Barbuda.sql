@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (142, 'All Saints', 3704, '07', 10, 'AG', 17.06671000, -61.79303000 '2019-10-05 14:58:07', '2019-10-05 14:58:07', 1, 'Q1771715')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (142, 'All Saints', 3704, '07', 10, 'AG', 17.06671000, -61.79303000 '2019-10-05 14:58:07', '2019-10-05 14:58:07', 1, 'Q1771715')
 ,(143, 'Bolands', 3707, '05', 10, 'AG', 17.06565000, -61.87466000 '2019-10-05 14:58:07', '2019-10-05 14:58:07', 1, 'Q1771701')
 ,(144, 'Codrington', 3708, '10', 10, 'AG', 17.63333000, -61.83333000 '2019-10-05 14:58:07', '2019-10-05 14:58:07', 1, 'Q1024679')
 ,(145, 'Falmouth', 3705, '06', 10, 'AG', 17.02741000, -61.78136000 '2019-10-05 14:58:07', '2019-10-05 14:58:07', 1, 'Q3299460')

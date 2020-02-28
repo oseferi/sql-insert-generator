@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (68005, '10 de Abril', 3459, 'GRO', 142, 'MX', 16.82917000, -99.74083000 '2019-10-05 15:38:26', '2019-10-05 15:38:26', 1, 'Q20128878')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (68005, '10 de Abril', 3459, 'GRO', 142, 'MX', 16.82917000, -99.74083000 '2019-10-05 15:38:26', '2019-10-05 15:38:26', 1, 'Q20128878')
 ,(68006, '18 de Marzo', 3476, 'PUE', 142, 'MX', 18.96889000, -98.16028000 '2019-10-05 15:38:26', '2019-10-05 15:38:26', 1, 'Q20228734')
 ,(68007, '1ra. SecciÃ³n de Izapa', 3451, 'CHP', 142, 'MX', 14.92083000, -92.17083000 '2019-10-05 15:38:26', '2019-10-05 15:38:26', 1, 'Q27769260')
 ,(68008, '2da. SecciÃ³n de Medio Monte', 3451, 'CHP', 142, 'MX', 14.88194000, -92.18444000 '2019-10-05 15:38:26', '2019-10-05 15:38:26', 1, 'Q20274325')

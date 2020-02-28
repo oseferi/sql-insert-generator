@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (109002, 'Banqiao', 3422, 'TPE', 216, 'TW', 25.01427000, 121.46719000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q3394651')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (109002, 'Banqiao', 3422, 'TPE', 216, 'TW', 25.01427000, 121.46719000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q3394651')
 ,(109003, 'Changhua', 3404, 'CHA', 216, 'TW', 23.95361000, 120.49083000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q133865')
 ,(109004, 'Chiayi', 3408, 'CYI', 216, 'TW', 23.47722000, 120.44527000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q249995')
 ,(109005, 'Chiayi County', 3418, 'CYQ', 216, 'TW', 23.46333000, 120.58166000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q166977')

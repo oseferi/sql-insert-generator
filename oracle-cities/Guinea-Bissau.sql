@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (53807, 'BafatÃ¡', 2720, 'BA', 93, 'GW', 12.16583000, -14.66167000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q799788')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (53807, 'BafatÃ¡', 2720, 'BA', 93, 'GW', 12.16583000, -14.66167000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q799788')
 ,(53808, 'BissorÃ£', 2718, 'OI', 93, 'GW', 12.22306000, -15.44750000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q799788')
 ,(53809, 'Bolama', 2722, 'BL', 93, 'GW', 11.57694000, -15.47611000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q681802')
 ,(53810, 'Buba', 2715, 'QU', 93, 'GW', 11.58889000, -14.99583000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q997402')

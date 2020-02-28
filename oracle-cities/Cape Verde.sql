@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (21987, 'Assomada', 2985, 'CA', 40, 'CV', 15.10000000, -23.68333000 '2019-10-05 15:10:02', '2019-10-05 15:10:02', 1, 'Q490573')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (21987, 'Assomada', 2985, 'CA', 40, 'CV', 15.10000000, -23.68333000 '2019-10-05 15:10:02', '2019-10-05 15:10:02', 1, 'Q490573')
 ,(21988, 'Calheta', 2990, 'SM', 40, 'CV', 15.18613000, -23.59228000 '2019-10-05 15:10:02', '2019-10-05 15:10:02', 1, 'Q2539817')
 ,(21989, 'Cidade Velha', 2984, 'RS', 40, 'CV', 14.91531000, -23.60527000 '2019-10-05 15:10:02', '2019-10-05 15:10:02', 1, 'Q464913')
 ,(21990, 'Cova Figueira', 2995, 'CF', 40, 'CV', 14.89054000, -24.29343000 '2019-10-05 15:10:02', '2019-10-05 15:10:02', 1, 'Q485198')

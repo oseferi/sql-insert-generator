@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (52321, 'Beyla', 2684, 'N', 92, 'GN', 8.69011000, -8.64869000 '2019-10-05 15:23:21', '2019-10-05 15:23:21', 1, 'Q1076707')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (52321, 'Beyla', 2684, 'N', 92, 'GN', 8.69011000, -8.64869000 '2019-10-05 15:23:21', '2019-10-05 15:23:21', 1, 'Q1076707')
 ,(52322, 'Beyla Prefecture', 2684, 'N', 92, 'GN', 8.91667000, -8.41667000 '2019-10-05 15:23:21', '2019-10-05 15:23:21', 1, 'Q853169')
 ,(52323, 'Boffa', 2676, 'B', 92, 'GN', 10.33333000, -14.16667000 '2019-10-05 15:23:21', '2019-10-05 15:23:21', 1, 'Q890340')
 ,(52324, 'Boke Prefecture', 2676, 'B', 92, 'GN', 11.08333000, -14.41667000 '2019-10-05 15:23:21', '2019-10-05 15:23:21', 1, 'Q891238')

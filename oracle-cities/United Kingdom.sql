@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (48157, 'Abbey Wood', 2336, 'ENG', 232, 'GB', 51.48688000, 0.10747000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q690421')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (48157, 'Abbey Wood', 2336, 'ENG', 232, 'GB', 51.48688000, 0.10747000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q690421')
 ,(48158, 'Abbots Bromley', 2336, 'ENG', 232, 'GB', 52.81705000, -1.87694000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q2167664')
 ,(48159, 'Abbots Langley', 2336, 'ENG', 232, 'GB', 51.70573000, -0.41757000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q2167664')
 ,(48160, 'Abbotskerswell', 2336, 'ENG', 232, 'GB', 50.50816000, -3.61342000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q2684937')

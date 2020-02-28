@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (105179, 'Amnat Charoen', 3523, '37', 219, 'TH', 15.85851000, 104.62883000 '2019-10-05 15:48:09', '2019-10-05 15:48:09', 1, 'Q473674')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (105179, 'Amnat Charoen', 3523, '37', 219, 'TH', 15.85851000, 104.62883000 '2019-10-05 15:48:09', '2019-10-05 15:48:09', 1, 'Q473674')
 ,(105180, 'Amphoe Akat Amnuai', 3501, '47', 219, 'TH', 17.63589000, 103.97590000 '2019-10-05 15:48:09', '2019-10-05 15:48:09', 1, 'Q475058')
 ,(105181, 'Amphoe Amphawa', 3502, '75', 219, 'TH', 13.36721000, 99.91232000 '2019-10-05 15:48:09', '2019-10-05 15:48:09', 1, 'Q475066')
 ,(105182, 'Amphoe Ao Luek', 3478, '81', 219, 'TH', 8.38526000, 98.75378000 '2019-10-05 15:48:09', '2019-10-05 15:48:09', 1, 'Q475070')

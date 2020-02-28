@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (102906, 'Anse Boileau', 513, '02', 197, 'SC', -4.71667000, 55.48333000 '2019-10-05 15:47:55', '2019-10-05 15:47:55', 1, 'Q646756')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (102906, 'Anse Boileau', 513, '02', 197, 'SC', -4.71667000, 55.48333000 '2019-10-05 15:47:55', '2019-10-05 15:47:55', 1, 'Q646756')
 ,(102907, 'Anse Royale', 502, '05', 197, 'SC', -4.73333000, 55.51667000 '2019-10-05 15:47:55', '2019-10-05 15:47:55', 1, 'Q646756')
 ,(102908, 'Beau Vallon', 512, '08', 197, 'SC', -4.62091000, 55.43015000 '2019-10-05 15:47:55', '2019-10-05 15:47:55', 1, 'Q646756')
 ,(102909, 'Bel Ombre', 505, '10', 197, 'SC', -4.61667000, 55.41667000 '2019-10-05 15:47:55', '2019-10-05 15:47:55', 1, 'Q646756')

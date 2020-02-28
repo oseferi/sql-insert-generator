@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (130172, 'BiÃªn HÃ²a', 3821, '39', 240, 'VN', 10.94469000, 106.82432000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q19316')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (130172, 'BiÃªn HÃ²a', 3821, '39', 240, 'VN', 10.94469000, 106.82432000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q19316')
 ,(130173, 'BuÃ´n Ma Thuá»™t', 3829, '33', 240, 'VN', 12.66747000, 108.03775000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q33469')
 ,(130174, 'BÃ¬nh Long', 3797, '58', 240, 'VN', 11.64711000, 106.60586000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q33469')
 ,(130175, 'Báº¡c LiÃªu', 3804, '55', 240, 'VN', 9.29414000, 105.72776000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q36142')

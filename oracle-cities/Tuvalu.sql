@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (108993, 'Alapi Village', 3951, 'FUN', 228, 'TV', -8.52074000, 179.19680000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q1444575')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (108993, 'Alapi Village', 3951, 'FUN', 228, 'TV', -8.52074000, 179.19680000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q1444575')
 ,(108994, 'Asau Village', 3950, 'VAI', 228, 'TV', -7.49026000, 178.68016000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q2481883')
 ,(108995, 'Fakaifou Village', 3951, 'FUN', 228, 'TV', -8.51758000, 179.20094000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q2481883')
 ,(108996, 'Funafuti', 3951, 'FUN', 228, 'TV', -8.52425000, 179.19417000 '2019-10-05 16:01:28', '2019-10-05 16:01:28', 1, 'Q2481883')

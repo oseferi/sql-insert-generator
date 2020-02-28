@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65956, 'Active Hill', 3758, '02', 186, 'LC', 14.01940000, -60.97767000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q26569')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65956, 'Active Hill', 3758, '02', 186, 'LC', 14.01940000, -60.97767000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q26569')
 ,(65957, 'Agard Lands/Morne Dudon', 3758, '02', 186, 'LC', 14.00768000, -60.96462000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q26569')
 ,(65958, 'Almondale', 3758, '02', 186, 'LC', 14.01848000, -60.96162000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q26569')
 ,(65959, 'Annus', 3759, '07', 186, 'LC', 13.77449000, -61.00511000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q26569')

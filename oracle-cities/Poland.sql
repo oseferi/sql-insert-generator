@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (85775, 'AbramÃ³w', 1638, 'LU', 176, 'PL', 51.45647000, 22.31521000 '2019-10-05 15:43:35', '2019-10-05 15:43:35', 1, 'Q2277800')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (85775, 'AbramÃ³w', 1638, 'LU', 176, 'PL', 51.45647000, 22.31521000 '2019-10-05 15:43:35', '2019-10-05 15:43:35', 1, 'Q2277800')
 ,(85776, 'AdamÃ³w', 1638, 'LU', 176, 'PL', 51.74335000, 22.26414000 '2019-10-05 15:43:35', '2019-10-05 15:43:35', 1, 'Q2035593')
 ,(85777, 'AdamÃ³wka', 1626, 'PK', 176, 'PL', 50.25857000, 22.69595000 '2019-10-05 15:43:35', '2019-10-05 15:43:35', 1, 'Q2332206')
 ,(85778, 'Albigowa', 1626, 'PK', 176, 'PL', 50.01425000, 22.22414000 '2019-10-05 15:43:35', '2019-10-05 15:43:35', 1, 'Q4712370')

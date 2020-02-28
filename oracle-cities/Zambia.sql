@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (131329, 'Chadiza', 1991, '03', 246, 'ZM', -14.06779000, 32.43917000 '2019-10-05 16:07:24', '2019-10-05 16:07:24', 1, 'Q1058666')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (131329, 'Chadiza', 1991, '03', 246, 'ZM', -14.06779000, 32.43917000 '2019-10-05 16:07:24', '2019-10-05 16:07:24', 1, 'Q1058666')
 ,(131330, 'Chama', 1989, '10', 246, 'ZM', -11.21303000, 33.15210000 '2019-10-05 16:07:24', '2019-10-05 16:07:24', 1, 'Q1060403')
 ,(131331, 'Chambishi', 1984, '08', 246, 'ZM', -12.63247000, 28.05367000 '2019-10-05 16:07:24', '2019-10-05 16:07:24', 1, 'Q1060403')
 ,(131332, 'Chibombo', 1986, '02', 246, 'ZM', -14.65685000, 28.07057000 '2019-10-05 16:07:24', '2019-10-05 16:07:24', 1, 'Q1071771')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (53821, 'Anna Regina', 2765, 'PM', 94, 'GY', 7.26439000, -58.50769000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q563067')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (53821, 'Anna Regina', 2765, 'PM', 94, 'GY', 7.26439000, -58.50769000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q563067')
 ,(53822, 'Bartica', 2760, 'CU', 94, 'GY', 6.40799000, -58.62192000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q809428')
 ,(53823, 'Georgetown', 2767, 'DE', 94, 'GY', 6.80448000, -58.15527000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q10717')
 ,(53824, 'Lethem', 2769, 'UT', 94, 'GY', 3.38333000, -59.80000000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q1203781')

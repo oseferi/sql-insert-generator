@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (31226, 'Abou el Hassan', 1105, '02', 4, 'DZ', 36.41657000, 1.19616000 '2019-10-05 15:15:25', '2019-10-05 15:15:25', 1, 'Q2821729')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (31226, 'Abou el Hassan', 1105, '02', 4, 'DZ', 36.41657000, 1.19616000 '2019-10-05 15:15:25', '2019-10-05 15:15:25', 1, 'Q2821729')
 ,(31227, 'Adrar', 1118, '01', 4, 'DZ', 27.87429000, -0.29388000 '2019-10-05 15:15:25', '2019-10-05 15:15:25', 1, 'Q251181')
 ,(31228, 'Aflou', 1138, '03', 4, 'DZ', 34.11279000, 2.10228000 '2019-10-05 15:15:25', '2019-10-05 15:15:25', 1, 'Q500560')
 ,(31229, 'Akbou', 1128, '06', 4, 'DZ', 36.45750000, 4.53494000 '2019-10-05 15:15:25', '2019-10-05 15:15:25', 1, 'Q2828968')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (48129, 'Bitam', 2723, '9', 79, 'GA', 2.07597000, 11.50065000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q1023124')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (48129, 'Bitam', 2723, '9', 79, 'GA', 2.07597000, 11.50065000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q1023124')
 ,(48130, 'BoouÃ©', 2724, '6', 79, 'GA', -0.09207000, 11.93846000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q1052014')
 ,(48131, 'Cocobeach', 2727, '1', 79, 'GA', 1.00019000, 9.58229000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q491801')
 ,(48132, 'Fougamou', 2731, '4', 79, 'GA', -1.21544000, 10.58378000 '2019-10-05 15:19:14', '2019-10-05 15:19:14', 1, 'Q1106169')

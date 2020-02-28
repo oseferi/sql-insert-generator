@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (16146, 'Abbotsford', 875, 'BC', 39, 'CA', 49.05798000, -122.25257000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q271730')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (16146, 'Abbotsford', 875, 'BC', 39, 'CA', 49.05798000, -122.25257000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q271730')
 ,(16147, 'Abitibi-TÃ©miscamingue', 873, 'QC', 39, 'CA', 48.10018000, -77.78280000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q321529')
 ,(16148, 'Acton Vale', 873, 'QC', 39, 'CA', 45.65007000, -72.56582000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q141960')
 ,(16149, 'Adstock', 873, 'QC', 39, 'CA', 46.05007000, -71.08235000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q141960')

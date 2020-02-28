@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65167, 'Cayon', 3844, '08', 185, 'KN', 17.35000000, -62.73333000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q3316336')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65167, 'Cayon', 3844, '08', 185, 'KN', 17.35000000, -62.73333000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q3316336')
 ,(65168, 'Charlestown', 3838, '10', 185, 'KN', 17.13333000, -62.61667000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q992311')
 ,(65169, 'Cotton Ground', 3839, '12', 185, 'KN', 17.16667000, -62.61667000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q3394446')
 ,(65170, 'Dieppe Bay Town', 3845, '06', 185, 'KN', 17.41473000, -62.81390000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q1010810')

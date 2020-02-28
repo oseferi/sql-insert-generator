@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (130029, 'Barrouallie', 3385, '05', 188, 'VC', 13.23676000, -61.27275000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q2885705')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (130029, 'Barrouallie', 3385, '05', 188, 'VC', 13.23676000, -61.27275000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q2885705')
 ,(130030, 'Biabou', 3389, '01', 188, 'VC', 13.19430000, -61.13904000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q767607')
 ,(130031, 'Byera Village', 3389, '01', 188, 'VC', 13.25636000, -61.11954000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q5004057')
 ,(130032, 'Chateaubelair', 3387, '03', 188, 'VC', 13.29069000, -61.24043000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q672197')

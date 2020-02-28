@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (16133, 'Belize City', 264, 'BZ', 23, 'BZ', 17.49952000, -88.19756000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q108223')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (16133, 'Belize City', 264, 'BZ', 23, 'BZ', 17.49952000, -88.19756000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q108223')
 ,(16134, 'Belmopan', 269, 'CY', 23, 'BZ', 17.25000000, -88.76667000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q3043')
 ,(16135, 'Benque Viejo el Carmen', 269, 'CY', 23, 'BZ', 17.07500000, -89.13917000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q524851')
 ,(16136, 'Corozal', 266, 'CZL', 23, 'BZ', 18.39375000, -88.38849000 '2019-10-05 15:05:44', '2019-10-05 15:05:44', 1, 'Q882907')

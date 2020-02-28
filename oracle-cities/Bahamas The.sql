@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (15685, 'Abrahamâ€™s Bay', 3633, 'MG', 17, 'BS', 22.36667000, -72.96667000 '2019-10-05 15:05:41', '2019-10-05 15:05:41', 1, 'Q658024')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (15685, 'Abrahamâ€™s Bay', 3633, 'MG', 17, 'BS', 22.36667000, -72.96667000 '2019-10-05 15:05:41', '2019-10-05 15:05:41', 1, 'Q658024')
 ,(15686, 'Alice Town', 3629, 'BI', 17, 'BS', 25.72800000, -79.29721000 '2019-10-05 15:05:41', '2019-10-05 15:05:41', 1, 'Q1771833')
 ,(15687, 'Andros Town', 3617, 'NS', 17, 'BS', 24.70502000, -77.76912000 '2019-10-05 15:05:41', '2019-10-05 15:05:41', 1, 'Q1771818')
 ,(15688, 'Arthurâ€™s Town', 3611, 'CI', 17, 'BS', 24.62240000, -75.67151000 '2019-10-05 15:05:41', '2019-10-05 15:05:41', 1, 'Q1771792')

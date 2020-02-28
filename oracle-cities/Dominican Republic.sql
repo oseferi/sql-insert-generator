@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (31019, 'Agua Santa del Yuna', 4113, '06', 62, 'DO', 19.15072000, -69.80069000 '2019-10-05 15:15:21', '2019-10-05 15:15:21', 1, 'Q4694455')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (31019, 'Agua Santa del Yuna', 4113, '06', 62, 'DO', 19.15072000, -69.80069000 '2019-10-05 15:15:21', '2019-10-05 15:15:21', 1, 'Q4694455')
 ,(31020, 'Altamira', 4092, '18', 62, 'DO', 19.70000000, -70.83333000 '2019-10-05 15:15:21', '2019-10-05 15:15:21', 1, 'Q23779605')
 ,(31021, 'Amina', 4104, '27', 62, 'DO', 19.54813000, -70.99599000 '2019-10-05 15:15:21', '2019-10-05 15:15:21', 1, 'Q23779645')
 ,(31022, 'Arenoso', 4113, '06', 62, 'DO', 19.18732000, -69.85917000 '2019-10-05 15:15:22', '2019-10-05 15:15:22', 1, 'Q3622180')

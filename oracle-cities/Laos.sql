@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65854, 'Anouvong district', 983, 'XS', 119, 'LA', 18.89731000, 103.09274000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q20311301')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65854, 'Anouvong district', 983, 'XS', 119, 'LA', 18.89731000, 103.09274000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q20311301')
 ,(65855, 'Attapeu', 982, 'AT', 119, 'LA', 14.81071000, 106.83184000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q757905')
 ,(65856, 'Ban Houakhoua', 991, 'BK', 119, 'LA', 20.24670000, 100.45401000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q757905')
 ,(65857, 'Ban Houayxay', 991, 'BK', 119, 'LA', 20.27000000, 100.41780000 '2019-10-05 15:37:51', '2019-10-05 15:37:51', 1, 'Q757905')

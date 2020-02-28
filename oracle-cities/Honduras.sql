@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (53835, 'Agalteca', 4052, 'FM', 97, 'HN', 14.45000000, -87.26667000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q1018877')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (53835, 'Agalteca', 4052, 'FM', 97, 'HN', 14.45000000, -87.26667000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q1018877')
 ,(53836, 'Agua Azul', 4046, 'CR', 97, 'HN', 14.91667000, -87.96667000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q1018877')
 ,(53837, 'Agua Azul Rancho', 4046, 'CR', 97, 'HN', 14.90000000, -87.95000000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q1018877')
 ,(53838, 'Agua Blanca Sur', 4057, 'YO', 97, 'HN', 15.25000000, -87.88333000 '2019-10-05 15:23:28', '2019-10-05 15:23:28', 1, 'Q1018877')

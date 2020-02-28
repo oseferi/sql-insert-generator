@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (63211, 'Abashiri', 832, '01', 109, 'JP', 44.02127000, 144.26971000 '2019-10-05 15:37:33', '2019-10-05 15:37:33', 1, 'Q2828134')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (63211, 'Abashiri', 832, '01', 109, 'JP', 44.02127000, 144.26971000 '2019-10-05 15:37:33', '2019-10-05 15:37:33', 1, 'Q2828134')
 ,(63212, 'Abashiri Shi', 832, '01', 109, 'JP', 43.98565000, 144.21051000 '2019-10-05 15:37:33', '2019-10-05 15:37:33', 1, 'Q305640')
 ,(63213, 'Abiko', 821, '12', 109, 'JP', 35.86667000, 140.01667000 '2019-10-05 15:37:33', '2019-10-05 15:37:33', 1, 'Q305640')
 ,(63214, 'Abiko-shi', 821, '12', 109, 'JP', 35.86947000, 140.06510000 '2019-10-05 15:37:33', '2019-10-05 15:37:33', 1, 'Q243859')

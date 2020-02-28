@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (11, 'Abu Dhabi Island and Internal Islands City', 3396, 'AZ', 231, 'AE', 24.45110000, 54.39690000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q1050185')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (11, 'Abu Dhabi Island and Internal Islands City', 3396, 'AZ', 231, 'AE', 24.45110000, 54.39690000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q1050185')
 ,(12, 'Abu Dhabi Municipality', 3396, 'AZ', 231, 'AE', 24.41361000, 54.43295000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q1050185')
 ,(13, 'Adh Dhayd', 3390, 'SH', 231, 'AE', 25.28812000, 55.88157000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q3492826')
 ,(14, 'Ajman', 3395, 'AJ', 231, 'AE', 25.40328000, 55.52341000 '2019-10-05 14:58:06', '2019-10-05 14:58:06', 1, 'Q3492826')

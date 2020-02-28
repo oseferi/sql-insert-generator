@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (22106, 'Abertamy', 4581, '41', 58, 'CZ', 50.36874000, 12.81826000 '2019-10-05 15:10:03', '2019-10-05 15:10:03', 1, 'Q319731')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (22106, 'Abertamy', 4581, '41', 58, 'CZ', 50.36874000, 12.81826000 '2019-10-05 15:10:03', '2019-10-05 15:10:03', 1, 'Q319731')
 ,(22107, 'Adamov', 4602, '64', 58, 'CZ', 49.30162000, 16.65253000 '2019-10-05 15:10:03', '2019-10-05 15:10:03', 1, 'Q158242')
 ,(22108, 'Albrechtice', 4600, '80', 58, 'CZ', 49.78645000, 18.52444000 '2019-10-05 15:10:03', '2019-10-05 15:10:03', 1, 'Q910497')
 ,(22109, 'Albrechtice nad OrlicÃ­', 4614, '52', 58, 'CZ', 50.13979000, 16.06437000 '2019-10-05 15:10:03', '2019-10-05 15:10:03', 1, 'Q1911596')

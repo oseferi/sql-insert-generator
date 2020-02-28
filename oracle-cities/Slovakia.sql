@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104370, 'BanskÃ¡ Bystrica', 4352, 'BC', 200, 'SK', 48.73946000, 19.15349000 '2019-10-05 15:48:04', '2019-10-05 15:48:04', 1, 'Q144983')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104370, 'BanskÃ¡ Bystrica', 4352, 'BC', 200, 'SK', 48.73946000, 19.15349000 '2019-10-05 15:48:04', '2019-10-05 15:48:04', 1, 'Q144983')
 ,(104371, 'BanskÃ¡ Å tiavnica', 4352, 'BC', 200, 'SK', 48.44858000, 18.91003000 '2019-10-05 15:48:04', '2019-10-05 15:48:04', 1, 'Q208110')
 ,(104372, 'Bardejov', 4354, 'PV', 200, 'SK', 49.29175000, 21.27271000 '2019-10-05 15:48:04', '2019-10-05 15:48:04', 1, 'Q208110')
 ,(104373, 'Bojnice', 4358, 'TC', 200, 'SK', 48.78511000, 18.58640000 '2019-10-05 15:48:04', '2019-10-05 15:48:04', 1, 'Q788753')

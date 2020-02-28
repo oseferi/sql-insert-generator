@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (130038, 'Acarigua', 2036, 'P', 239, 'VE', 9.55451000, -69.19564000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q338059')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (130038, 'Acarigua', 2036, 'P', 239, 'VE', 9.55451000, -69.19564000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q338059')
 ,(130039, 'Altagracia de Orituco', 2045, 'J', 239, 'VE', 9.86005000, -66.38139000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q433758')
 ,(130040, 'Alto Barinas', 2049, 'E', 239, 'VE', 8.59310000, -70.22610000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q433758')
 ,(130041, 'Anaco', 2050, 'B', 239, 'VE', 9.42958000, -64.46428000 '2019-10-05 16:07:14', '2019-10-05 16:07:14', 1, 'Q1897488')

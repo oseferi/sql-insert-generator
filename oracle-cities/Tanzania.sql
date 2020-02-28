@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (109042, 'Arusha', 1491, '01', 218, 'TZ', -3.36667000, 36.68333000 '2019-10-05 16:01:29', '2019-10-05 16:01:29', 1, 'Q4301')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (109042, 'Arusha', 1491, '01', 218, 'TZ', -3.36667000, 36.68333000 '2019-10-05 16:01:29', '2019-10-05 16:01:29', 1, 'Q4301')
 ,(109043, 'Babati', 1484, '26', 218, 'TZ', -4.21667000, 35.75000000 '2019-10-05 16:01:29', '2019-10-05 16:01:29', 1, 'Q276746')
 ,(109044, 'Bagamoyo', 1485, '19', 218, 'TZ', -6.44222000, 38.90422000 '2019-10-05 16:01:29', '2019-10-05 16:01:29', 1, 'Q799843')
 ,(109045, 'Bariadi', 1464, '30', 218, 'TZ', -2.80000000, 33.98333000 '2019-10-05 16:01:29', '2019-10-05 16:01:29', 1, 'Q799843')

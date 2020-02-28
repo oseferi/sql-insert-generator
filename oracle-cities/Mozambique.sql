@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (76588, 'Alto MolÃ³cuÃ¨', 3328, 'Q', 150, 'MZ', -15.64932000, 37.66384000 '2019-10-05 15:40:39', '2019-10-05 15:40:39', 1, 'Q4736799')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (76588, 'Alto MolÃ³cuÃ¨', 3328, 'Q', 150, 'MZ', -15.64932000, 37.66384000 '2019-10-05 15:40:39', '2019-10-05 15:40:39', 1, 'Q4736799')
 ,(76589, 'AntÃ³nio Enes', 3336, 'N', 150, 'MZ', -16.23250000, 39.90861000 '2019-10-05 15:40:39', '2019-10-05 15:40:39', 1, 'Q541656')
 ,(76590, 'Beira', 3331, 'S', 150, 'MZ', -19.84361000, 34.83889000 '2019-10-05 15:40:39', '2019-10-05 15:40:39', 1, 'Q211563')
 ,(76591, 'Boane District', 3332, 'L', 150, 'MZ', -26.02900000, 32.38900000 '2019-10-05 15:40:39', '2019-10-05 15:40:39', 1, 'Q887507')

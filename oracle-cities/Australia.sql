@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (3902, 'Abbey', 3906, 'WA', 14, 'AU', -33.66364000, 115.25635000 '2019-10-05 14:58:36', '2019-10-05 14:58:36', 1, 'Q333230')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (3902, 'Abbey', 3906, 'WA', 14, 'AU', -33.66364000, 115.25635000 '2019-10-05 14:58:36', '2019-10-05 14:58:36', 1, 'Q333230')
 ,(3903, 'Abbotsbury', 3909, 'NSW', 14, 'AU', -33.87010000, 150.86119000 '2019-10-05 14:58:36', '2019-10-05 14:58:36', 1, 'Q4664280')
 ,(3904, 'Abbotsford', 3903, 'VIC', 14, 'AU', -37.80000000, 145.00000000 '2019-10-05 14:58:36', '2019-10-05 14:58:36', 1, 'Q306710')
 ,(3905, 'Abbotsford', 3909, 'NSW', 14, 'AU', -33.84889000, 151.12801000 '2019-10-05 14:58:36', '2019-10-05 14:58:36', 1, 'Q4664298')

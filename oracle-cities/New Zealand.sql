@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (79768, 'Ahipara', 4059, 'NTL', 158, 'NZ', -35.16667000, 173.16667000 '2019-10-05 15:42:15', '2019-10-05 15:42:15', 1, 'Q400269')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (79768, 'Ahipara', 4059, 'NTL', 158, 'NZ', -35.16667000, 173.16667000 '2019-10-05 15:42:15', '2019-10-05 15:42:15', 1, 'Q400269')
 ,(79769, 'Amberley', 4066, 'CAN', 158, 'NZ', -43.15589000, 172.72975000 '2019-10-05 15:42:15', '2019-10-05 15:42:15', 1, 'Q457210')
 ,(79770, 'Arrowtown', 4062, 'OTA', 158, 'NZ', -44.93837000, 168.81007000 '2019-10-05 15:42:15', '2019-10-05 15:42:15', 1, 'Q703016')
 ,(79771, 'Ashburton', 4066, 'CAN', 158, 'NZ', -43.89834000, 171.73011000 '2019-10-05 15:42:15', '2019-10-05 15:42:15', 1, 'Q724923')

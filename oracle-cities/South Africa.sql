@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (131015, 'Adelaide', 938, 'EC', 204, 'ZA', -32.70747000, 26.29564000 '2019-10-05 16:07:23', '2019-10-05 16:07:23', 1, 'Q353952')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (131015, 'Adelaide', 938, 'EC', 204, 'ZA', -32.70747000, 26.29564000 '2019-10-05 16:07:23', '2019-10-05 16:07:23', 1, 'Q353952')
 ,(131016, 'Albertina', 939, 'WC', 204, 'ZA', -34.20544000, 21.58001000 '2019-10-05 16:07:23', '2019-10-05 16:07:23', 1, 'Q2549949')
 ,(131017, 'Alberton', 936, 'GT', 204, 'ZA', -26.26786000, 28.12225000 '2019-10-05 16:07:23', '2019-10-05 16:07:23', 1, 'Q1637702')
 ,(131018, 'Alfred Nzo District Municipality', 938, 'EC', 204, 'ZA', -30.66803000, 29.15490000 '2019-10-05 16:07:23', '2019-10-05 16:07:23', 1, 'Q1664120')

@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (55044, 'Acul du Nord', 4117, 'ND', 95, 'HT', 19.66667000, -72.28333000 '2019-10-05 15:23:33', '2019-10-05 15:23:33', 1, 'Q394257')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (55044, 'Acul du Nord', 4117, 'ND', 95, 'HT', 19.66667000, -72.28333000 '2019-10-05 15:23:33', '2019-10-05 15:23:33', 1, 'Q394257')
 ,(55045, 'Ansavo', 4118, 'NI', 95, 'HT', 18.41667000, -73.50000000 '2019-10-05 15:23:33', '2019-10-05 15:23:33', 1, 'Q394257')
 ,(55046, 'Anse Rouge', 4123, 'AR', 95, 'HT', 19.63382000, -73.05530000 '2019-10-05 15:23:33', '2019-10-05 15:23:33', 1, 'Q394257')
 ,(55047, 'Anse Ã  Galets', 4120, 'OU', 95, 'HT', 18.83449000, -72.86644000 '2019-10-05 15:23:33', '2019-10-05 15:23:33', 1, 'Q26228056')

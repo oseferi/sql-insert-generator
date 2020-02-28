@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65260, 'Andong', 3855, '47', 116, 'KR', 36.56636000, 128.72275000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q42116')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (65260, 'Andong', 3855, '47', 116, 'KR', 36.56636000, 128.72275000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q42116')
 ,(65261, 'Andong-si', 3855, '47', 116, 'KR', 36.56667000, 128.71667000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q42116')
 ,(65262, 'Ansan-si', 3847, '41', 116, 'KR', 37.32361000, 126.82194000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q42117')
 ,(65263, 'Anseong', 3847, '41', 116, 'KR', 37.01083000, 127.27028000 '2019-10-05 15:37:45', '2019-10-05 15:37:45', 1, 'Q42119')

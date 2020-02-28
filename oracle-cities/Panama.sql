@@ -1,4 +1,4 @@
-INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (79954, 'Achutupo', 1388, 'KY', 170, 'PA', 9.19827000, -77.98729000 '2019-10-05 15:42:17', '2019-10-05 15:42:17', 1, 'Q1956983')
+INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (79954, 'Achutupo', 1388, 'KY', 170, 'PA', 9.19827000, -77.98729000 '2019-10-05 15:42:17', '2019-10-05 15:42:17', 1, 'Q1956983')
 ,(79955, 'Agua Buena', 1390, '7', 170, 'PA', 7.83465000, -80.39405000 '2019-10-05 15:42:17', '2019-10-05 15:42:17', 1, 'Q1956983')
 ,(79956, 'Aguadulce', 1387, '2', 170, 'PA', 8.24183000, -80.54609000 '2019-10-05 15:42:17', '2019-10-05 15:42:17', 1, 'Q1956983')
 ,(79957, 'Aguas Blancas', 1387, '2', 170, 'PA', 8.50351000, -80.31169000 '2019-10-05 15:42:17', '2019-10-05 15:42:17', 1, 'Q1956983')
