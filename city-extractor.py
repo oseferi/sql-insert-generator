@@ -3,9 +3,10 @@ import io
 import os
 from os import path
 
+FOLDER_PATH = 'oracle-cities'
 
-if path.exists('cities') == False:
-  os.mkdir('cities')
+if path.exists(FOLDER_PATH) == False:
+  os.mkdir(FOLDER_PATH)
 
 
 connection = mysql.connector.connect(
@@ -19,6 +20,8 @@ seectAllCountriesQuery = "SELECT * FROM countries"
 selectEachCityQuery = "SELECT * FROM cities WHERE country_code = %(country)s"
 
 insertCityQuery = "INSERT INTO `cities` (`id`, `name`, `state_id`, `state_code`, `country_id`, `country_code`, `latitude`, `longitude`, `created_at`, `updated_on`, `flag`, `wikiDataId`) VALUES "
+insertCityQueryOracle = "INSERT INTO cities` (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES "
+
 valueCityQuery = "($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude '$created_at', '$updated_on', $flag, '$wikiDataId')\n"
 
 cursor = connection.cursor(dictionary=True)
@@ -33,8 +36,8 @@ for country in countriesResultSet:
     #Query for Cities in each country
     cursor.execute(selectEachCityQuery,parameter)
     citiesResultSet = cursor.fetchall()
-    insertCityQueryCopy = insertCityQuery
-    citySqlFile = io.open("cities/"+country['name']+".sql","w+",encoding="utf-8")
+    insertCityQueryCopy = insertCityQueryOracle
+    citySqlFile = io.open(FOLDER_PATH+"/"+country['name']+".sql","w+",encoding="utf-8")
     print("Exporting Cities..")
     for city in citiesResultSet:
         #print(city)

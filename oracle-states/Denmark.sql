@@ -1,0 +1,5 @@
+INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (1528, 'Region Zealand', 59, 'DK', '20', '85', '2019-10-05 14:18:42', '2019-10-05 14:18:42', 1, 'Q26589')
+,(1529, 'Region of Southern Denmark', 59, 'DK', '21', '83', '2019-10-05 14:18:42', '2019-10-05 14:18:42', 1, 'Q26061')
+,(1530, 'Capital Region of Denmark', 59, 'DK', '17', '84', '2019-10-05 14:18:42', '2019-10-05 14:18:42', 1, 'Q26073')
+,(1531, 'Central Denmark Region', 59, 'DK', '18', '82', '2019-10-05 14:18:42', '2019-10-05 14:18:42', 1, 'Q26586')
+,(1532, 'North Denmark Region', 59, 'DK', '19', '81', '2019-10-05 14:18:42', '2019-10-05 14:18:42', 1, 'Q26067')

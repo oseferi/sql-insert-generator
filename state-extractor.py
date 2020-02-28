@@ -4,9 +4,10 @@ import os
 from os import path
 
 
-if path.exists('states') == False:
-  os.mkdir('states')
+FOLDER_PATH = 'oracle-states'
 
+if path.exists(FOLDER_PATH) == False:
+  os.mkdir(FOLDER_PATH)
 
 connection = mysql.connector.connect(
   host="localhost",
@@ -16,13 +17,11 @@ connection = mysql.connector.connect(
 )
 seectAllCountriesQuery = "SELECT * FROM countries"
 selectEachStateQuery = "SELECT * FROM states WHERE country_code = %(country)s"
-selectEachCityQuery = "SELECT * FROM cities WHERE country_code = %(country)s"
 
 insertStateQuery = "INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES "
+insertStateQueryOracle = "INSERT INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES "
 valueStateQuery = "($id, '$name', $country_id, '$country_code', '$fips_code', '$iso2', '$created_at', '$updated_at', $flag, '$wikiDataId')\n"
 
-insertCityQuery = "INSERT INTO `cities` (`id`, `name`, `state_id`, `state_code`, `country_id`, `country_code`, `latitude`, `longitude`, `created_at`, `updated_on`, `flag`, `wikiDataId`) VALUES "
-valueCityQuery = "($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude '$created_at', '$updated_on', $flag, '$wikiDataId')\n"
 cursor = connection.cursor(dictionary=True)
 cursor.execute(seectAllCountriesQuery)
 
@@ -35,7 +34,7 @@ for country in countriesResultSet:
   cursor.execute(selectEachStateQuery,parameter)
   statesResultSet = cursor.fetchall()
   insertQuery = insertStateQuery
-  sqlFile = io.open("states/"+country['name']+".sql","w+",encoding="utf-8")
+  sqlFile = io.open(FOLDER_PATH+"/"+country['name']+".sql","w+",encoding="utf-8")
   print("Exporting States..")
   for state in statesResultSet:
     #   print(state)
