@@ -19,11 +19,10 @@ connection = mysql.connector.connect(
 seectAllCountriesQuery = "SELECT * FROM countries"
 selectEachCityQuery = "SELECT * FROM cities WHERE country_code = %(country)s"
 
-insertCityQuery = "INSERT INTO `cities` (`id`, `name`, `state_id`, `state_code`, `country_id`, `country_code`, `latitude`, `longitude`, `created_at`, `updated_on`, `flag`, `wikiDataId`) VALUES "
-insertCityQueryOracle = "INSERT INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES "
-
-valueCityQuery = "($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude '$created_at', '$updated_on', $flag, '$wikiDataId')\n"
-
+# insertCityQuery = "INSERT INTO `cities` (`id`, `name`, `state_id`, `state_code`, `country_id`, `country_code`, `latitude`, `longitude`, `created_at`, `updated_on`, `flag`, `wikiDataId`) VALUES "
+insertCityQueryOracle = "INSERT ALL\n"
+valueCityQuery = "  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES ($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude, TO_TIMESTAMP('$created_at','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('$updated_on','YYYY-MM-DD HH24:MI:SS'), $flag, '$wikiDataId')\n"
+selectDualCityQuery = "SELECT * FROM dual;"
 cursor = connection.cursor(dictionary=True)
 cursor.execute(seectAllCountriesQuery)
 
@@ -43,22 +42,23 @@ for country in countriesResultSet:
         #print(city)
         valueCityQueryCopy = valueCityQuery
         valueCityQueryCopy = valueCityQueryCopy.replace('$id',str(city['id']),1)
-        valueCityQueryCopy = valueCityQueryCopy.replace('$name',str(city['name']),1)
+        valueCityQueryCopy = valueCityQueryCopy.replace('$name',city['name'].replace('\'',"\'\'",1),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$state_id',str(city['state_id']),1)
-        valueCityQueryCopy = valueCityQueryCopy.replace('$state_code',str(city['state_code']),1)
+        valueCityQueryCopy = valueCityQueryCopy.replace('$state_code',city['state_code'].replace('\'',"\'\'",1),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$country_id',str(city['country_id']),1)
-        valueCityQueryCopy = valueCityQueryCopy.replace('$country_code',str(city['country_code']),1)
+        valueCityQueryCopy = valueCityQueryCopy.replace('$country_code',city['country_code'].replace('\'',"\'\'",1),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$latitude',str(city['latitude']),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$longitude',str(city['longitude']),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$created_at',str(city['created_at']),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$updated_on',str(city['updated_on']),1)
         valueCityQueryCopy = valueCityQueryCopy.replace('$flag',str(city['flag']),1)
-        valueCityQueryCopy = valueCityQueryCopy.replace('$wikiDataId',str(city['wikiDataId']),1)
+        valueCityQueryCopy = valueCityQueryCopy.replace('$wikiDataId',city['wikiDataId'].replace('\'',"\'\'",1),1)
 
-        if city != citiesResultSet[-1]:
-            valueCityQueryCopy = valueCityQueryCopy + ","
+        # if city != citiesResultSet[-1]:
+        #     valueCityQueryCopy = valueCityQueryCopy + ","
             
         insertCityQueryCopy += valueCityQueryCopy
+    insertCityQueryCopy += selectDualCityQuery
     citySqlFile.write(insertCityQueryCopy)
 
     citySqlFile.close()

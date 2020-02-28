@@ -1,7 +1,9 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (3863, 'Saint Patrick Parish', 87, 'GD', '06', '06', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q1476309')
-,(3864, 'Saint George Parish', 87, 'GD', '03', '03', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q576651')
-,(3865, 'Saint Andrew Parish', 87, 'GD', '01', '01', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q977183')
-,(3866, 'Saint Mark Parish', 87, 'GD', '05', '05', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q1291077')
-,(3867, 'Carriacou and Petite Martinique', 87, 'GD', '10', '10', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q3044818')
-,(3868, 'Saint John Parish', 87, 'GD', '04', '04', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q1476289')
-,(3869, 'Saint David Parish', 87, 'GD', '02', '02', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q2087806')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3863, 'Saint Patrick Parish', 87, 'GD', '06', '06', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q1476309')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3864, 'Saint George Parish', 87, 'GD', '03', '03', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q576651')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3865, 'Saint Andrew Parish', 87, 'GD', '01', '01', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q977183')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3866, 'Saint Mark Parish', 87, 'GD', '05', '05', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q1291077')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3867, 'Carriacou and Petite Martinique', 87, 'GD', '10', '10', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q3044818')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3868, 'Saint John Parish', 87, 'GD', '04', '04', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q1476289')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3869, 'Saint David Parish', 87, 'GD', '02', '02', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q2087806')
+SELECT * FROM dual;

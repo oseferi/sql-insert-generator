@@ -1,7 +1,9 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (3390, 'Sharjah Emirate', 231, 'AE', '06', 'SH', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q188810')
-,(3391, 'Dubai', 231, 'AE', '03', 'DU', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q613')
-,(3392, 'Umm al-Quwain', 231, 'AE', '07', 'UQ', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q175021')
-,(3393, 'Fujairah', 231, 'AE', '04', 'FU', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q4091')
-,(3394, 'Ras al-Khaimah', 231, 'AE', '05', 'RK', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q170024')
-,(3395, 'Ajman Emirate', 231, 'AE', '02', 'AJ', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q159477')
-,(3396, 'Abu Dhabi Emirate', 231, 'AE', '01', 'AZ', '2019-10-05 14:18:54', '2019-10-05 14:18:54', 1, 'Q187712')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3390, 'Sharjah Emirate', 231, 'AE', '06', 'SH', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q188810')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3391, 'Dubai', 231, 'AE', '03', 'DU', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q613')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3392, 'Umm al-Quwain', 231, 'AE', '07', 'UQ', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q175021')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3393, 'Fujairah', 231, 'AE', '04', 'FU', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q4091')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3394, 'Ras al-Khaimah', 231, 'AE', '05', 'RK', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q170024')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3395, 'Ajman Emirate', 231, 'AE', '02', 'AJ', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q159477')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3396, 'Abu Dhabi Emirate', 231, 'AE', '01', 'AZ', TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:54','YYYY-MM-DD HH24:MI:SS'),1, 'Q187712')
+SELECT * FROM dual;

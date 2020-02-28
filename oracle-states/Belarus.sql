@@ -1,7 +1,9 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (2954, 'Mogilev Region', 21, 'BY', '06', 'MA', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q189822')
-,(2955, 'Gomel Region', 21, 'BY', '02', 'HO', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q188732')
-,(2956, 'Grodno Region', 21, 'BY', '03', 'HR', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q191061')
-,(2957, 'Minsk Region', 21, 'BY', '05', 'MI', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q192959')
-,(2958, 'Minsk', 21, 'BY', '04', 'HM', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q2280')
-,(2959, 'Brest Region', 21, 'BY', '01', 'BR', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q173822')
-,(2960, 'Vitebsk Region', 21, 'BY', '07', 'VI', '2019-10-05 14:18:51', '2019-10-05 14:18:51', 1, 'Q185700')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2954, 'Mogilev Region', 21, 'BY', '06', 'MA', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q189822')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2955, 'Gomel Region', 21, 'BY', '02', 'HO', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q188732')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2956, 'Grodno Region', 21, 'BY', '03', 'HR', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q191061')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2957, 'Minsk Region', 21, 'BY', '05', 'MI', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q192959')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2958, 'Minsk', 21, 'BY', '04', 'HM', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q2280')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2959, 'Brest Region', 21, 'BY', '01', 'BR', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q173822')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2960, 'Vitebsk Region', 21, 'BY', '07', 'VI', TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:51','YYYY-MM-DD HH24:MI:SS'),1, 'Q185700')
+SELECT * FROM dual;

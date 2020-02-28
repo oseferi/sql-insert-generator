@@ -19,10 +19,11 @@ CREATE TABLE cities (
   country_code char(2) NOT NULL,
   latitude number(10,8) NOT NULL,
   longitude number(11,8) NOT NULL,
-  created_at timestamp(0) DEFAULT '2013-12-31 19:31:01' NOT NULL,
+  created_at timestamp(0) DEFAULT TO_TIMESTAMP('2013-12-31 19:31:01','YYYY-MM-DD HH24:MI:SS') NOT NULL,
   updated_on timestamp(0) DEFAULT SYSTIMESTAMP NOT NULL,
   flag number(3) DEFAULT '1' NOT NULL,
-  wikiDataId varchar2(255) DEFAULT NULL 
+  wikiDataId varchar2(255) DEFAULT NULL ,
+  
 )  ;
 
 -- --------------------------------------------------------
@@ -84,7 +85,7 @@ CREATE TABLE states (
 -- Indexes for table `cities`
 --
 ALTER TABLE cities
-  ADD PRIMARY KEY (id),
+  ADD CONSTRAINT city_pk PRIMARY KEY (id),
   ADD KEY `cities_state` (state_id),
   ADD KEY `cities_country` (country_id);
 
@@ -92,13 +93,13 @@ ALTER TABLE cities
 -- Indexes for table `countries`
 --
 ALTER TABLE countries
-  ADD PRIMARY KEY (id);
+  ADD CONSTRAINT country_pk PRIMARY KEY (id);
 
 --
 -- Indexes for table `states`
 --
 ALTER TABLE states
-  ADD PRIMARY KEY (id),
+  ADD CONSTRAINT state_pk PRIMARY KEY (id),
   ADD KEY `country_state` (country_id);
 
 --

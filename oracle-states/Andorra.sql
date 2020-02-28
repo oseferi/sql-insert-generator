@@ -1,7 +1,9 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (487, 'Encamp', 6, 'AD', '03', '03', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q24269')
-,(488, 'Andorra la Vella', 6, 'AD', '07', '07', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q2522163')
-,(489, 'Canillo', 6, 'AD', '02', '02', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q24260')
-,(490, 'Sant JuliÃ  de LÃ²ria', 6, 'AD', '06', '06', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q24282')
-,(491, 'Ordino', 6, 'AD', '05', '05', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q24272')
-,(492, 'Escaldes-Engordany', 6, 'AD', '08', '08', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q24286')
-,(493, 'La Massana', 6, 'AD', '04', '04', '2019-10-05 14:18:37', '2019-10-05 14:18:37', 1, 'Q24276')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (487, 'Encamp', 6, 'AD', '03', '03', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q24269')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (488, 'Andorra la Vella', 6, 'AD', '07', '07', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q2522163')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (489, 'Canillo', 6, 'AD', '02', '02', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q24260')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (490, 'Sant JuliÃ  de LÃ²ria', 6, 'AD', '06', '06', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q24282')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (491, 'Ordino', 6, 'AD', '05', '05', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q24272')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (492, 'Escaldes-Engordany', 6, 'AD', '08', '08', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q24286')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (493, 'La Massana', 6, 'AD', '04', '04', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q24276')
+SELECT * FROM dual;

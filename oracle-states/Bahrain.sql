@@ -1,5 +1,7 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (1992, 'Capital Governorate', 18, 'BH', '16', '13', '2019-10-05 14:18:45', '2019-10-05 14:18:45', 1, 'Q528953')
-,(1993, 'Southern Governorate', 18, 'BH', '17', '14', '2019-10-05 14:18:45', '2019-10-05 14:18:45', 1, 'Q838532')
-,(1994, 'Northern Governorate', 18, 'BH', '18', '17', '2019-10-05 14:18:45', '2019-10-05 14:18:45', 1, 'Q840445')
-,(1995, 'Muharraq Governorate', 18, 'BH', '15', '15', '2019-10-05 14:18:45', '2019-10-05 14:18:45', 1, 'Q375630')
-,(1996, 'Central Governorate', 18, 'BH', '19', '16', '2019-10-05 14:18:45', '2019-10-05 14:18:45', 1, 'Q856539')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1992, 'Capital Governorate', 18, 'BH', '16', '13', TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'),1, 'Q528953')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1993, 'Southern Governorate', 18, 'BH', '17', '14', TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'),1, 'Q838532')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1994, 'Northern Governorate', 18, 'BH', '18', '17', TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'),1, 'Q840445')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1995, 'Muharraq Governorate', 18, 'BH', '15', '15', TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'),1, 'Q375630')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1996, 'Central Governorate', 18, 'BH', '19', '16', TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:45','YYYY-MM-DD HH24:MI:SS'),1, 'Q856539')
+SELECT * FROM dual;

@@ -1,5 +1,7 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (3911, 'VavaÊ»u', 222, 'TO', '03', '05', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q10389402')
-,(3912, 'Tongatapu', 222, 'TO', '02', '04', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q10383165')
-,(3913, 'HaÊ»apai', 222, 'TO', '01', '02', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q10293470')
-,(3914, 'Niuas', 222, 'TO', 'NI', '03', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q1200954')
-,(3915, 'Ê»Eua', 222, 'TO', 'EU', '01', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q18472979')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3911, 'VavaÊ»u', 222, 'TO', '03', '05', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q10389402')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3912, 'Tongatapu', 222, 'TO', '02', '04', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q10383165')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3913, 'HaÊ»apai', 222, 'TO', '01', '02', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q10293470')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3914, 'Niuas', 222, 'TO', 'NI', '03', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q1200954')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3915, 'Ê»Eua', 222, 'TO', 'EU', '01', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q18472979')
+SELECT * FROM dual;

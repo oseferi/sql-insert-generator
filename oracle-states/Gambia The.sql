@@ -1,6 +1,8 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (2666, 'Banjul', 80, 'GM', '01', 'B', '2019-10-05 14:18:49', '2019-10-05 14:18:49', 1, 'Q3726')
-,(2667, 'West Coast Division', 80, 'GM', '05', 'W', '2019-10-05 14:18:49', '2019-10-05 14:18:49', 1, 'Q846158')
-,(2668, 'Upper River Division', 80, 'GM', '04', 'U', '2019-10-05 14:18:49', '2019-10-05 14:18:49', 1, 'Q824373')
-,(2669, 'Central River Division', 80, 'GM', '03', 'M', '2019-10-05 14:18:49', '2019-10-05 14:18:49', 1, 'Q824431')
-,(2670, 'Lower River Division', 80, 'GM', '02', 'L', '2019-10-05 14:18:49', '2019-10-05 14:18:49', 1, 'Q824421')
-,(2671, 'North Bank Division', 80, 'GM', '07', 'N', '2019-10-05 14:18:49', '2019-10-05 14:18:49', 1, 'Q846161')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2666, 'Banjul', 80, 'GM', '01', 'B', TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'),1, 'Q3726')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2667, 'West Coast Division', 80, 'GM', '05', 'W', TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'),1, 'Q846158')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2668, 'Upper River Division', 80, 'GM', '04', 'U', TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'),1, 'Q824373')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2669, 'Central River Division', 80, 'GM', '03', 'M', TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'),1, 'Q824431')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2670, 'Lower River Division', 80, 'GM', '02', 'L', TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'),1, 'Q824421')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2671, 'North Bank Division', 80, 'GM', '07', 'N', TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:49','YYYY-MM-DD HH24:MI:SS'),1, 'Q846161')
+SELECT * FROM dual;

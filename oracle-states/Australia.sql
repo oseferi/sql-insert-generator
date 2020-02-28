@@ -1,8 +1,10 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (3903, 'Victoria', 14, 'AU', '07', 'VIC', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q36687')
-,(3904, 'South Australia', 14, 'AU', '05', 'SA', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q35715')
-,(3905, 'Queensland', 14, 'AU', '04', 'QLD', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q36074')
-,(3906, 'Western Australia', 14, 'AU', '08', 'WA', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q3206')
-,(3907, 'Australian Capital Territory', 14, 'AU', '01', 'ACT', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q3258')
-,(3908, 'Tasmania', 14, 'AU', '06', 'TAS', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q34366')
-,(3909, 'New South Wales', 14, 'AU', '02', 'NSW', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q3224')
-,(3910, 'Northern Territory', 14, 'AU', '03', 'NT', '2019-10-05 14:18:56', '2019-10-05 14:18:56', 1, 'Q3235')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3903, 'Victoria', 14, 'AU', '07', 'VIC', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q36687')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3904, 'South Australia', 14, 'AU', '05', 'SA', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q35715')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3905, 'Queensland', 14, 'AU', '04', 'QLD', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q36074')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3906, 'Western Australia', 14, 'AU', '08', 'WA', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q3206')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3907, 'Australian Capital Territory', 14, 'AU', '01', 'ACT', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q3258')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3908, 'Tasmania', 14, 'AU', '06', 'TAS', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q34366')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3909, 'New South Wales', 14, 'AU', '02', 'NSW', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q3224')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3910, 'Northern Territory', 14, 'AU', '03', 'NT', TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:56','YYYY-MM-DD HH24:MI:SS'),1, 'Q3235')
+SELECT * FROM dual;

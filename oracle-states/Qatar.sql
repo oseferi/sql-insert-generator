@@ -1,8 +1,10 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (3177, 'Al Rayyan Municipality', 179, 'QA', '06', 'RA', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q311272')
-,(3178, 'Al-Shahaniya', 179, 'QA', '14', 'SH', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q12188815')
-,(3179, 'Al Wakrah', 179, 'QA', '10', 'WA', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q310893')
-,(3180, 'Madinat ash Shamal', 179, 'QA', '08', 'MS', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q310872')
-,(3181, 'Doha', 179, 'QA', '01', 'DA', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q3861')
-,(3182, 'Al Daayen', 179, 'QA', '01', 'ZA', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q310786')
-,(3183, 'Al Khor', 179, 'QA', '04', 'KH', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q1156471')
-,(3184, 'Umm Salal Municipality', 179, 'QA', '09', 'US', '2019-10-05 14:18:53', '2019-10-05 14:18:53', 1, 'Q990414')
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3177, 'Al Rayyan Municipality', 179, 'QA', '06', 'RA', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q311272')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3178, 'Al-Shahaniya', 179, 'QA', '14', 'SH', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q12188815')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3179, 'Al Wakrah', 179, 'QA', '10', 'WA', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q310893')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3180, 'Madinat ash Shamal', 179, 'QA', '08', 'MS', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q310872')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3181, 'Doha', 179, 'QA', '01', 'DA', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q3861')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3182, 'Al Daayen', 179, 'QA', '01', 'ZA', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q310786')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3183, 'Al Khor', 179, 'QA', '04', 'KH', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q1156471')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (3184, 'Umm Salal Municipality', 179, 'QA', '09', 'US', TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:53','YYYY-MM-DD HH24:MI:SS'),1, 'Q990414')
+SELECT * FROM dual;
