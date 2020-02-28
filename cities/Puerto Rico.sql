@@ -1,0 +1,1 @@
+INSERT INTO `cities` (`id`, `name`, `state_id`, `state_code`, `country_id`, `country_code`, `latitude`, `longitude`, `created_at`, `updated_on`, `flag`, `wikiDataId`) VALUES 
