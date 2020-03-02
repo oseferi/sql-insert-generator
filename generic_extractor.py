@@ -60,7 +60,7 @@ def map_city_values(city):
   values_query = bind_value(values_query,CityConstants.CITY_LATITUDE,city[CityConstants.CITY_LATITUDE])
   values_query = bind_value(values_query,CityConstants.CITY_LONGITUDE,city[CityConstants.CITY_LONGITUDE])
   values_query = bind_value(values_query,CityConstants.CITY_CREATED_AT,city[CityConstants.CITY_CREATED_AT])
-  values_query = bind_value(values_query,CityConstants.CITY_UPDATED_ON,city[CityConstants.CITY_UPDATED_ON])
+  values_query = bind_value(values_query,CityConstants.CITY_UPDATED_AT,city[CityConstants.CITY_UPDATED_AT])
   values_query = bind_value(values_query,CityConstants.CITY_FLAG,city[CityConstants.CITY_FLAG])
   values_query = bind_value(values_query,CityConstants.CITY_WIKIDATAID,city[CityConstants.CITY_WIKIDATAID])
   return values_query
