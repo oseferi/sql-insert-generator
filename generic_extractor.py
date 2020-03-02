@@ -13,7 +13,6 @@ def check_directory():
     os.mkdir(FOLDER_PATH)
 
 def bind_value(query,literal,value):
-    # print("Entered bind value with parameters query : "+ str(query) +" | literal : "+ str(literal) +" | value : " + str(value))
     return query.replace('$'+literal,str(value).replace('\'',"\'\'",1),1)
 
 def map_country_values(country):

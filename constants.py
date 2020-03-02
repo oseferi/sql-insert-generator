@@ -6,7 +6,7 @@ class Queries:
   INSERT_ALL_QUERY = "INSERT ALL\n"
   INSERT_INTO_COUNTRIES_QUERY = "INSERT INTO WWS_COUNTRIES (ID, NAME, ISO3, ISO2, PHONECODE, CAPITAL, CURRENCY, CREATED_AT, UPDATED_AT, FLAG, WIKIDATAID) VALUES ($id, '$name', '$iso3', '$iso2', '$phonecode', '$capital', '$currency', TO_TIMESTAMP('$created_at','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('$updated_at','YYYY-MM-DD HH24:MI:SS'), $flag, $wikiDataId);\n"
   INTO_STATES_QUERY = "  INTO WWS_STATES (ID, NAME, COUNTRY_ID, COUNTRY_CODE, FIPS_CODE, ISO2, CREATED_AT, UPDATED_AT, FLAG, WIKIDATAID) VALUES ($id, '$name', $country_id, '$country_code', '$fips_code', '$iso2', TO_TIMESTAMP('$created_at','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('$updated_at','YYYY-MM-DD HH24:MI:SS'),$flag, '$wikiDataId')\n"
-  INTO_CITY_QUERY = "  INTO WWS_CITIES (ID, NAME, STATE_ID, STATE_CODE, COUNTRY_ID, COUNTRY_CODE, LATITUDE, LONGITUDE, CREATED_AT, UPDATED_AT, FLAG, WIKIDATAID) VALUES ($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude, TO_TIMESTAMP('$created_at','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('$updated_on','YYYY-MM-DD HH24:MI:SS'), $flag, '$wikiDataId')\n"
+  INTO_CITY_QUERY = "  INTO WWS_CITIES (ID, NAME, STATE_ID, STATE_CODE, COUNTRY_ID, COUNTRY_CODE, LATITUDE, LONGITUDE, CREATED_AT, UPDATED_AT, FLAG, WIKIDATAID) VALUES ($id, '$name', $state_id, '$state_code', $country_id, '$country_code', $latitude, $longitude, TO_TIMESTAMP('$created_at','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('$updated_at','YYYY-MM-DD HH24:MI:SS'), $flag, '$wikiDataId')\n"
   SELECT_ALL_DUAL_QUERY = "SELECT * FROM dual;"
 
 
@@ -46,7 +46,7 @@ class CityConstants:
   CITY_LATITUDE= "latitude"
   CITY_LONGITUDE= "longitude"
   CITY_CREATED_AT= "created_at"
-  CITY_UPDATED_AT= "updated_on"
+  CITY_UPDATED_AT= "updated_at"
   CITY_FLAG= "flag"
   CITY_WIKIDATAID= "wikiDataId"
 

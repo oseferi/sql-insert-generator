@@ -7,5 +7,7 @@ def get_database_connection():
         user="root",
         passwd="root",
         database="world",
+        charset= 'utf8',
+        use_unicode= True,
     )
     return connection
