@@ -1,7 +1,0 @@
-INSERT ALL
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (259, 'Southern Province', 183, 'RW', '15', '05', TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'),1, 'Q853162')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (260, 'Western Province', 183, 'RW', '14', '04', TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'),1, 'Q737354')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (261, 'Eastern Province', 183, 'RW', '11', '02', TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'),1, 'Q853152')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (262, 'Kigali district', 183, 'RW', '12', '01', TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'),1, 'Q167196')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (263, 'Northern Province', 183, 'RW', '13', '03', TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:36','YYYY-MM-DD HH24:MI:SS'),1, 'Q845807')
-SELECT * FROM dual;

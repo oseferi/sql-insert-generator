@@ -1,7 +1,0 @@
-INSERT ALL
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1528, 'Region Zealand', 59, 'DK', '20', '85', TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'),1, 'Q26589')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1529, 'Region of Southern Denmark', 59, 'DK', '21', '83', TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'),1, 'Q26061')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1530, 'Capital Region of Denmark', 59, 'DK', '17', '84', TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'),1, 'Q26073')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1531, 'Central Denmark Region', 59, 'DK', '18', '82', TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'),1, 'Q26586')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1532, 'North Denmark Region', 59, 'DK', '19', '81', TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:42','YYYY-MM-DD HH24:MI:SS'),1, 'Q26067')
-SELECT * FROM dual;

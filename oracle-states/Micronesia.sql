@@ -1,6 +1,0 @@
-INSERT ALL
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2580, 'Chuuk State', 143, 'FM', '03', 'TRK', TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'),1, 'Q221684')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2581, 'Pohnpei State', 143, 'FM', '02', 'PNI', TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'),1, 'Q7771127')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2582, 'Yap State', 143, 'FM', '04', 'YAP', TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'),1, 'Q11342951')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (2583, 'Kosrae State', 143, 'FM', '01', 'KSA', TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:48','YYYY-MM-DD HH24:MI:SS'),1, 'Q1785093')
-SELECT * FROM dual;

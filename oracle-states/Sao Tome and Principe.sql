@@ -1,4 +1,0 @@
-INSERT ALL
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (270, 'PrÃ­ncipe Province', 193, 'ST', '01', 'P', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q2366966')
-  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (271, 'SÃ£o TomÃ© Province', 193, 'ST', '02', 'S', TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:37','YYYY-MM-DD HH24:MI:SS'),1, 'Q6710363')
-SELECT * FROM dual;

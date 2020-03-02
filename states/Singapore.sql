@@ -1,5 +1,0 @@
-INSERT INTO `states` (`id`, `name`, `country_id`, `country_code`, `fips_code`, `iso2`, `created_at`, `updated_at`, `flag`, `wikiDataId`) VALUES (4649, 'North East Community Development Council', 199, 'SG', '79', '02', '2019-10-05 14:19:00', '2019-10-05 14:19:00', 1, 'Q3710534')
-,(4650, 'South East Community Development Council', 199, 'SG', '79', '04', '2019-10-05 14:19:00', '2019-10-05 14:19:00', 1, 'Q1687545')
-,(4651, 'Central Singapore Community Development Council', 199, 'SG', '79', '01', '2019-10-05 14:19:00', '2019-10-05 14:19:00', 1, 'Q2544592')
-,(4652, 'South West Community Development Council', 199, 'SG', '79', '05', '2019-10-05 14:19:00', '2019-10-05 14:19:00', 1, 'Q5784126')
-,(4653, 'North West Community Development Council', 199, 'SG', '79', '03', '2019-10-05 14:19:00', '2019-10-05 14:19:00', 1, 'Q5784118')

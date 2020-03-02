@@ -1,2 +1,0 @@
-INSERT ALL
-SELECT * FROM dual;

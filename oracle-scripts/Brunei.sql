@@ -1,0 +1,23 @@
+INSERT INTO countries (id, name, iso3, iso2, phonecode, capital, currency, created_at, updated_at, flag, wikiDataId) VALUES (33, 'Brunei', 'BRN', 'BN', '673', 'Bandar Seri Begawan', 'BND', TO_TIMESTAMP('2018-07-20 16:41:03','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-08-02 21:38:23','YYYY-MM-DD HH24:MI:SS'), 1, 'Q921')
+
+
+
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1216, 'Brunei-Muara District', 33, 'BN', '02', 'BM', TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'),1, 'Q153009')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1217, 'Belait District', 33, 'BN', '01', 'BE', TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'),1, 'Q40395')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1218, 'Temburong District', 33, 'BN', '03', 'TE', TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'),1, 'Q263285')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (1219, 'Tutong District', 33, 'BN', '04', 'TU', TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:18:41','YYYY-MM-DD HH24:MI:SS'),1, 'Q40398')
+SELECT * FROM dual;
+
+
+INSERT ALL
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9816, 'Bandar Seri Begawan', 1216, 'BM', 33, 'BN', 4.89035000, 114.94006000, TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), 1, 'Q9279')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9817, 'Bangar', 1218, 'TE', 33, 'BN', 4.70861000, 115.07167000, TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), 1, 'Q1125479')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9818, 'Berakas A', 1216, 'BM', 33, 'BN', 4.97032000, 114.92989000, TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), 1, 'Q1125479')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9819, 'Kapok', 1216, 'BM', 33, 'BN', 5.02447000, 115.04664000, TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), 1, 'Q1125479')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9820, 'Kuala Belait', 1217, 'BE', 33, 'BN', 4.58361000, 114.23120000, TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), 1, 'Q588045')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9821, 'Mentiri', 1216, 'BM', 33, 'BN', 4.97058000, 115.02078000, TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:51','YYYY-MM-DD HH24:MI:SS'), 1, 'Q588045')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9822, 'Serasa', 1216, 'BM', 33, 'BN', 5.01718000, 115.05841000, TO_TIMESTAMP('2019-10-05 15:04:52','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:52','YYYY-MM-DD HH24:MI:SS'), 1, 'Q588045')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9823, 'Seria', 1217, 'BE', 33, 'BN', 4.60637000, 114.32476000, TO_TIMESTAMP('2019-10-05 15:04:52','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:52','YYYY-MM-DD HH24:MI:SS'), 1, 'Q2159472')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (9824, 'Tutong', 1219, 'TU', 33, 'BN', 4.80278000, 114.64917000, TO_TIMESTAMP('2019-10-05 15:04:52','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:04:52','YYYY-MM-DD HH24:MI:SS'), 1, 'Q2299301')
+SELECT * FROM dual;

@@ -1,0 +1,17 @@
+INSERT INTO countries (id, name, iso3, iso2, phonecode, capital, currency, created_at, updated_at, flag, wikiDataId) VALUES (199, 'Singapore', 'SGP', 'SG', '65', 'Singapur', 'SGD', TO_TIMESTAMP('2018-07-20 16:41:03','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-08-02 21:38:23','YYYY-MM-DD HH24:MI:SS'), 1, 'Q334')
+
+
+
+INSERT ALL
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (4649, 'North East Community Development Council', 199, 'SG', '79', '02', TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'),1, 'Q3710534')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (4650, 'South East Community Development Council', 199, 'SG', '79', '04', TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'),1, 'Q1687545')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (4651, 'Central Singapore Community Development Council', 199, 'SG', '79', '01', TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'),1, 'Q2544592')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (4652, 'South West Community Development Council', 199, 'SG', '79', '05', TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'),1, 'Q5784126')
+  INTO states (id, name, country_id, country_code, fips_code, iso2, created_at, updated_at, flag, wikiDataId) VALUES (4653, 'North West Community Development Council', 199, 'SG', '79', '03', TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 14:19:00','YYYY-MM-DD HH24:MI:SS'),1, 'Q5784118')
+SELECT * FROM dual;
+
+
+INSERT ALL
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104057, 'Singapore', 4651, '01', 199, 'SG', 1.28967000, 103.85007000, TO_TIMESTAMP('2019-10-05 15:48:01','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:48:01','YYYY-MM-DD HH24:MI:SS'), 1, 'Q3131205')
+  INTO cities (id, name, state_id, state_code, country_id, country_code, latitude, longitude, created_at, updated_on, flag, wikiDataId) VALUES (104058, 'Woodlands', 4653, '03', 199, 'SG', 1.43801000, 103.78877000, TO_TIMESTAMP('2019-10-05 15:48:01','YYYY-MM-DD HH24:MI:SS'), TO_TIMESTAMP('2019-10-05 15:48:01','YYYY-MM-DD HH24:MI:SS'), 1, 'Q3131205')
+SELECT * FROM dual;
